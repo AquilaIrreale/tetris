@@ -16,3 +16,5 @@ Makefile
 Makefile.in
 missing
 tetris
+src/.deps
+stamp-h1
