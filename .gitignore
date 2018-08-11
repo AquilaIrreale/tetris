@@ -18,3 +18,5 @@ missing
 tetris
 src/.deps
 stamp-h1
+src/.timestamps
+.deps
