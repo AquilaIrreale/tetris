@@ -1,3 +1,5 @@
+#include <config.h>
+
 #include "game.h"
 
 void terminate(int sig);

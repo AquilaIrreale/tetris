@@ -1,6 +1,8 @@
 #ifndef _GAMEOVER_H_
 	#define _GAMEOVER_H_
 
+#include <config.h>
+
 #include <curses.h>
 #include "graphics.h"
 

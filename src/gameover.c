@@ -1,3 +1,5 @@
+#include <config.h>
+
 #include "gameover.h"
 
 int gameover_screen(unsigned int p)

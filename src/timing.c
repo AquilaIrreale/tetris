@@ -1,3 +1,5 @@
+#include <config.h>
+
 #include "timing.h"
 
 unsigned long int secs()

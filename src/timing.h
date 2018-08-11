@@ -1,6 +1,8 @@
 #ifndef _TIMING_H_
 	#define _TIMING_H_
 
+#include <config.h>
+
 #include <time.h>
 
 #define CLOCKS_PER_MSEC (CLOCKS_PER_SEC/1000)

@@ -1,6 +1,8 @@
 #ifndef _GRAPHICS_H_
 	#define _GRAPHICS_H_
 
+#include <config.h>
+
 #include <curses.h>
 
 #define GAME_W	35

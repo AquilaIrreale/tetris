@@ -1,3 +1,5 @@
+#include <config.h>
+
 #include "graphics.h"
 
 int graphics_init() {

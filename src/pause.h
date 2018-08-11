@@ -1,6 +1,8 @@
 #ifndef _PAUSE_H_
 	#define _PAUSE_H_
 
+#include <config.h>
+
 #include <curses.h>
 #include "graphics.h"
 
