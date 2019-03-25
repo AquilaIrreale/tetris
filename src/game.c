@@ -477,18 +477,22 @@ int game_oninput(struct state *state)
     int c;
     while ((c = getch()) != EOF) {
         switch (c) {
-        case KEY_LEFT: {
+        case KEY_LEFT:
+        case 'h': {
             state->left = true;
             state->right = false;
         } break;
-        case KEY_RIGHT: {
+        case KEY_RIGHT:
+        case 'l': {
             state->right = true;
             state->left = false;
         } break;
-        case KEY_UP: {
+        case KEY_UP:
+        case 'k': {
             state->rotate = true;
         } break;
-        case KEY_DOWN: {
+        case KEY_DOWN:
+        case 'j': {
             state->fast = true;
         } break;
         case 'p': {
